@@ -1,0 +1,45 @@
+What is Docker?
+A lightweight virtual OS that run processes in full isolation
+
+Lifecycle 
+=======
+
+To create a container but does not start it
+
+- docker create <docker_name>
+
+To rename the docker container 
+
+- docker rename
+
+To create and starts a container in one command
+
+- docker run
+
+To delete a container 
+
+- docker rm 
+
+To update the container's resource limit
+
+- docker update 
+
+To updates a container resource limit
+
+- docker update 
+
+To remove container after it stops 
+
+- docker run -rm
+
+Map the directory ($HOSTDIR) on the host to a docker container ($DOCKERDIR)
+
+-docker run -v
+
+To remove the volumes associated with the container
+
+- docker rm -v
+
+To run docker with a custom log driver
+
+- docker run --log-driver=syslog
