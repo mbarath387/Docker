@@ -1,0 +1,34 @@
+To start and stop the docker containers
+==============================
+
+To start the container
+
+- docker start
+
+To stop the container
+
+-docker stop
+
+To restart the docker
+
+-docker restart
+
+To pause the container, "Freezing" it in place
+
+- docker pause
+
+To unpause the docker
+
+-docker unpause
+
+To block the container until the running container stops
+
+- docker wait
+
+To send a SIGKILL to a running container
+
+- docker kill
+
+To connect to running container
+
+- docker attach
